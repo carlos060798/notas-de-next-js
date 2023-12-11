@@ -1,5 +1,6 @@
 # apliativo de next js 
 
-  git config --global user.email daniloangaritagarcia@gmail.com
+## comando para inicar proyectos en next js
 
-  git config --global user.name carlos060798
+```bash
+npx create-next-app@latest nextjs-dashboard
