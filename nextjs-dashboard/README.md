@@ -1,5 +1,11 @@
-## Next.js App Router Course - Starter
+# integracion de la base de datos con el proyecto
 
-This is the starter template for the Next.js App Router Course. It contains the starting code for the dashboard application.
 
-For more information, see the [course curriculum](https://nextjs.org/learn) on the Next.js Website.
+## integracion de la base de datos con el proyecto posgresst 
+contraseña => admin 
+
+se puede crear un usuario  una instanción de la base de datos en vercel de la base de datos de posgrest
+Una vez conectado, navegue hasta la .env.localpestaña, haga clic en Mostrar secreto y copiar fragmento . Asegúrate de revelar los secretos antes de copiarlos.
+
+
+

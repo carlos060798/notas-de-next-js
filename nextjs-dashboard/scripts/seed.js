@@ -1,3 +1,5 @@
+
+
 const { db } = require('@vercel/postgres');
 const {
   invoices,
@@ -7,6 +9,13 @@ const {
 } = require('../app/lib/placeholder-data.js');
 const bcrypt = require('bcrypt');
 
+/**
+ * Seeds the "users" table with data.
+ * 
+ * @param {object} client - The database client.
+ * @returns {Promise<object>} - A promise that resolves to an object containing the result of table creation and inserted users.
+ * @throws {Error} - If there is an error while seeding users.
+ */
 async function seedUsers(client) {
   try {
     await client.sql`CREATE EXTENSION IF NOT EXISTS "uuid-ossp"`;
