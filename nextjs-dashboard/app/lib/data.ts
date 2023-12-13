@@ -1,4 +1,4 @@
-import { sql } from '@vercel/postgres';
+import { sql } from '@vercel/postgres'; //   este es una libreria que nos permite hacer consultas a la base de datos
 import {
   CustomerField,
   CustomersTableType,
